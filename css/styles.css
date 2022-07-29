@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  background-color: #e5eff5;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Karla", sans-serif;
+}
+
+body main {
+  width: 635px;
+  height: 400px;
+  background-color: #ffff;
+  border-radius: 12px 12px 0 0;
+}
+
+@media (max-width: 800px) {
+  body main {
+    width: 300px;
+    height: 500px;
+  }
+}
+
+body main .container .section-one {
+  padding: 40px;
+}
+
+body main .container .section-one .title h1 {
+  color: #2ab2af;
+  font-size: 20px;
+}
+
+body main .container .section-one .sub-title h3 {
+  color: #c0df34;
+  font-family: 12px;
+}
+
+body main .container .section-one .copy-one p {
+  color: #98a6bd;
+  font-family: 12px;
+  line-height: 25px;
+}
+
+body main .container .section-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+}
+
+@media (max-width: 800px) {
+  body main .container .section-two {
+    width: 300px;
+    height: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body main .container .section-two .monthly-subscription {
+  padding: 40px;
+  background-color: #2ab2af;
+  border-radius: 0 0 0  12px;
+}
+
+@media (max-width: 800px) {
+  body main .container .section-two .monthly-subscription {
+    border-radius: 0;
+  }
+}
+
+body main .container .section-two .monthly-subscription .monthly-title h3 {
+  font-size: 20px;
+  color: #ffff;
+}
+
+body main .container .section-two .monthly-subscription .monthly-price p {
+  margin: 0;
+  color: #ffff;
+  font-weight: lighter;
+}
+
+body main .container .section-two .monthly-subscription .monthly-price p span {
+  font-size: 30px;
+  color: #ffff;
+  font-weight: bold;
+}
+
+body main .container .section-two .monthly-subscription .sub-copy p {
+  color: #ffff;
+}
+
+body main .container .section-two .monthly-subscription .btn-sign-up button {
+  border: none;
+  background-color: #c0df34;
+  width: 100%;
+  padding: 18px 0 18px 0;
+  color: #ffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body main .container .section-two .why-us {
+  padding: 40px;
+  -webkit-box-flex: 180px;
+      -ms-flex: 180px;
+          flex: 180px;
+  background-color: #98a6bd;
+  border-radius: 0 0 12px 0;
+}
+
+@media (max-width: 800px) {
+  body main .container .section-two .why-us {
+    border-radius: 0 0 12px 12px;
+  }
+}
+
+body main .container .section-two .why-us h3 {
+  font-size: 20px;
+  color: #ffff;
+}
+
+body main .container .section-two .why-us .why-us-copy p {
+  color: #ffff;
+  font-size: 14px;
+  line-height: 23px;
+  width: 80%;
+}
+/*# sourceMappingURL=styles.css.map */

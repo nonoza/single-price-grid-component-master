@@ -1,0 +1,20 @@
+//Colors
+//Primary
+$cyan : hsl(179, 62%, 43%);
+$brightYellow : hsl(71, 73%, 54%);
+//Neutral
+$lightGray:hsl(204, 43%, 93%);
+$grayishBlue :hsl(218, 22%, 67%);
+$white : #ffff;
+
+//Body Copy
+$bodyCopy : 16px;
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$fontused :'Karla', sans-serif;
+
+//Mobile
+$mobileView : 275px;
+

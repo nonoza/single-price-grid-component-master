@@ -1,0 +1,128 @@
+@import 'styleguide.scss';
+ 
+body {
+    background-color: $lightGray;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $fontused;
+    main {
+        
+        width: 635px;
+        height: 400px;
+        background-color: $white;
+        border-radius: 12px 12px 0 0;
+
+        @media (max-width:800px) {
+            width: 300px;
+            height: 500px;
+        }
+        .container {
+            .section-one {
+                
+                padding: 40px;
+                .title {
+                         h1 {
+                           
+                            color: $cyan;
+                            font-size: 20px;
+                            }
+               }
+               .sub-title {
+                        h3 {
+                            
+                            color: $brightYellow;
+                            font-family: 12px;
+                        }
+               }
+               .copy-one {
+                p {
+                 
+                    color:$grayishBlue;
+                    font-family: 12px;
+                    line-height: 25px;
+                }
+       }
+            }
+            .section-two{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                min-width: 100%;
+                @media (max-width:800px) {
+                    width: 300px;
+                    height: 500px;
+                    flex-direction: column;
+                }
+                .monthly-subscription{
+                    padding: 40px;
+                    background-color: $cyan;
+                    border-radius: 0 0 0  12px;
+                    @media (max-width:800px){
+                        border-radius: 0;
+                    }
+                    .monthly-title{
+                        h3 {
+                           
+                            font-size:20px ;
+                            color: $white;
+                        }
+                        
+                    }
+                    .monthly-price {
+                        p {
+                            margin: 0;
+                            color: $white;
+                            font-weight: lighter;
+                            span {
+                                font-size: 30px;
+                                color: $white;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .sub-copy {
+                        p {
+                            color: $white;
+                        }
+                    }
+                    .btn-sign-up {
+                        button {
+                            border: none;
+                            background-color: $brightYellow;
+                            width: 100%;
+                            padding: 18px 0 18px 0;
+                            color: $white;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .why-us {
+                    padding: 40px;
+                    flex: 180px;
+                    background-color: $grayishBlue;
+                    border-radius: 0 0 12px 0;
+                    @media (max-width:800px){
+                        border-radius: 0 0 12px 12px;
+                    }
+                    h3 {
+                           
+                        font-size:20px ;
+                        color: $white;
+                    }
+                    .why-us-copy {
+                        p {
+                            color: $white;
+                            font-size: 14px;
+                            line-height: 23px;
+                            width: 80%
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
